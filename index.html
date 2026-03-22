@@ -3,34 +3,180 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minesweeper - Support</title>
+    <title>Minesweeper - Support & Privacy Policy</title>
     <style>
-        body { font-family: -apple-system, sans-serif; max-width: 600px; margin: 40px auto; padding: 20px; color: #333; }
-        h1 { color: #1a1a1a; }
-        h2 { color: #555; margin-top: 30px; }
-        a { color: #0066cc; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            color: #333;
+            background: #fafafa;
+            line-height: 1.6;
+        }
+        .header {
+            text-align: center;
+            padding: 30px 0;
+            border-bottom: 1px solid #e0e0e0;
+            margin-bottom: 30px;
+        }
+        .header h1 {
+            font-size: 28px;
+            color: #1a1a1a;
+            margin-bottom: 8px;
+        }
+        .header p {
+            color: #666;
+            font-size: 16px;
+        }
+        .app-icon {
+            font-size: 60px;
+            margin-bottom: 15px;
+        }
+        h2 {
+            color: #1a1a1a;
+            font-size: 20px;
+            margin-top: 35px;
+            margin-bottom: 12px;
+            padding-bottom: 6px;
+            border-bottom: 2px solid #3380e0;
+            display: inline-block;
+        }
+        p { margin-bottom: 12px; color: #444; }
+        ul { margin: 10px 0 15px 20px; }
+        li { margin-bottom: 8px; color: #444; }
+        li strong { color: #222; }
+        a { color: #3380e0; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        .contact-box {
+            background: #fff;
+            border: 1px solid #e0e0e0;
+            border-radius: 12px;
+            padding: 20px;
+            margin: 15px 0;
+            text-align: center;
+        }
+        .contact-box a {
+            font-size: 18px;
+            font-weight: 600;
+        }
+        .section { margin-bottom: 25px; }
+        .footer {
+            margin-top: 50px;
+            padding-top: 20px;
+            border-top: 1px solid #e0e0e0;
+            text-align: center;
+            color: #999;
+            font-size: 14px;
+        }
+        .badge {
+            display: inline-block;
+            background: #3380e0;
+            color: white;
+            padding: 2px 10px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 600;
+            margin-left: 6px;
+            vertical-align: middle;
+        }
     </style>
 </head>
 <body>
-    <h1>Minesweeper Support</h1>
-    <p>Thank you for playing Minesweeper!</p>
 
-    <h2>Contact Us</h2>
-    <p>For support, bug reports, or feedback, please email us at:<br>
-    <a href="mailto:YOUR_EMAIL@example.com">YOUR_EMAIL@example.com</a></p>
+    <div class="header">
+        <div class="app-icon">💣</div>
+        <h1>Minesweeper</h1>
+        <p>Classic Minesweeper with AI Solver</p>
+    </div>
 
-    <h2>In-App Purchases</h2>
-    <ul>
-        <li><strong>Extra Hints</strong> - Adds 5 hints to your current game</li>
-        <li><strong>AI Solver</strong> - Unlocks the AI auto-solver feature</li>
-        <li><strong>Remove Ads</strong> - Removes all advertisements</li>
-    </ul>
+    <!-- SUPPORT -->
+    <div class="section">
+        <h2>📬 Support</h2>
+        <p>Having trouble or have a suggestion? We'd love to hear from you.</p>
+        <div class="contact-box">
+            <p style="margin-bottom:8px; color:#666;">Email us at</p>
+            <a href="mailto:mohammedalhubail@icloud.com">mohammedalhubail@icloud.com</a>
+        </div>
+        <p>We typically respond within 24-48 hours.</p>
+    </div>
 
-    <h2>Privacy Policy</h2>
-    <p>This app uses Google AdMob to display advertisements. AdMob may collect device identifiers for ad personalization. No personal information is collected or stored by the developer. Leaderboard data (player names and scores) is stored locally on your device only.</p>
-    <p>This app uses Apple Game Center for global leaderboards (optional).</p>
-    <p>For questions about your data, contact us at the email above.</p>
+    <!-- IN-APP PURCHASES -->
+    <div class="section">
+        <h2>🛒 In-App Purchases</h2>
+        <p>Minesweeper offers the following optional purchases:</p>
+        <ul>
+            <li><strong>Extra Hints</strong> <span class="badge">$1.99</span> — Adds 5 additional hints to your current game. Hints highlight safe cells to reveal or mines to flag.</li>
+            <li><strong>AI Solver</strong> <span class="badge">$2.99</span> — Unlocks the AI auto-solver that can play the game for you using advanced constraint-based algorithms.</li>
+            <li><strong>Remove Ads</strong> <span class="badge">$4.99</span> — Permanently removes all banner and interstitial advertisements from the app.</li>
+        </ul>
+        <p>You can also earn coins by winning games and spend them on hints or to continue a game after losing.</p>
+    </div>
 
-    <p style="margin-top:40px; color:#999; font-size:14px;">&copy; 2025 Mohammed Alhubail. All rights reserved.</p>
+    <!-- HOW TO PLAY -->
+    <div class="section">
+        <h2>🎮 How to Play</h2>
+        <ul>
+            <li><strong>Tap</strong> a cell to reveal it</li>
+            <li><strong>Long press</strong> a cell to place or remove a flag</li>
+            <li><strong>Numbers</strong> show how many mines are adjacent to that cell</li>
+            <li><strong>Tap a number</strong> to chord-reveal (auto-reveal neighbors when all mines are flagged)</li>
+            <li>Reveal all non-mine cells to win</li>
+        </ul>
+        <p>Three difficulty levels: Easy (9×9, 10 mines), Medium (16×16, 40 mines), Hard (16×30, 99 mines).</p>
+    </div>
+
+    <!-- PRIVACY POLICY -->
+    <div class="section">
+        <h2>🔒 Privacy Policy</h2>
+        <p><strong>Last updated:</strong> March 2025</p>
+
+        <p><strong>Data We Collect</strong></p>
+        <p>Minesweeper is designed with your privacy in mind. We do not collect, store, or transmit any personal information to our servers.</p>
+
+        <ul>
+            <li><strong>Leaderboard Data:</strong> Player names and scores are stored locally on your device only. This data never leaves your device unless you use Apple Game Center, which is managed by Apple.</li>
+            <li><strong>Game Progress:</strong> Coins, purchase status, and settings are stored locally on your device using standard iOS storage.</li>
+            <li><strong>No Account Required:</strong> The app does not require registration or login. No email addresses, phone numbers, or personal identifiers are collected by the developer.</li>
+        </ul>
+
+        <p><strong>Third-Party Services</strong></p>
+        <ul>
+            <li><strong>Google AdMob:</strong> We use Google AdMob to display advertisements (banner and interstitial ads). AdMob may collect device identifiers (such as the Advertising Identifier) and usage data for the purpose of serving personalized or non-personalized ads. For more information, see <a href="https://policies.google.com/privacy" target="_blank">Google's Privacy Policy</a>.</li>
+            <li><strong>Apple Game Center:</strong> If you choose to sign in to Game Center, Apple manages your Game Center profile and leaderboard data according to <a href="https://www.apple.com/privacy/" target="_blank">Apple's Privacy Policy</a>.</li>
+            <li><strong>Apple StoreKit:</strong> In-App Purchases are processed by Apple. Payment information is handled entirely by Apple and is never accessible to the developer.</li>
+        </ul>
+
+        <p><strong>Children's Privacy</strong></p>
+        <p>This app is not directed at children under the age of 13. We do not knowingly collect personal information from children.</p>
+
+        <p><strong>Data Retention</strong></p>
+        <p>All locally stored data (scores, coins, settings) can be deleted by uninstalling the app from your device.</p>
+
+        <p><strong>Changes to This Policy</strong></p>
+        <p>We may update this privacy policy from time to time. Any changes will be reflected on this page with an updated date.</p>
+
+        <p><strong>Contact</strong></p>
+        <p>If you have any questions about this privacy policy, please contact us at <a href="mailto:mohammedalhubail@icloud.com">mohammedalhubail@icloud.com</a>.</p>
+    </div>
+
+    <!-- TERMS OF USE -->
+    <div class="section">
+        <h2>📄 Terms of Use</h2>
+        <p>By downloading and using Minesweeper, you agree to the following:</p>
+        <ul>
+            <li>The app is provided "as is" without warranties of any kind.</li>
+            <li>In-App Purchases are non-refundable. For refund requests, please contact Apple Support.</li>
+            <li>We reserve the right to modify app features and pricing at any time.</li>
+            <li>Use of Apple Game Center is subject to Apple's terms and conditions.</li>
+        </ul>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2025 Mohammed Alhubail. All rights reserved.</p>
+        <p style="margin-top: 8px;">Available on the App Store for iPhone and iPad</p>
+    </div>
+
 </body>
 </html>
